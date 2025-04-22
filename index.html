@@ -35,7 +35,6 @@
             color: #4b5563;
         }
         .hero {
-            /* Background image for hero section */
             background-image: url('images/growing-minds.jpg');
             background-size: cover;
             background-position: center;
@@ -47,13 +46,11 @@
             justify-content: center;
             position: relative;
         }
-        /* Lighter overlay to ensure background image visibility */
         .hero-overlay {
             position: absolute;
             inset: 0;
             background: linear-gradient(to right, rgba(59, 130, 246, 0.3), rgba(147, 51, 234, 0.3));
         }
-        /* Fade-in animations */
         .animate-fade-in-down {
             animation: fadeInDown 1s ease-out;
         }
@@ -64,7 +61,6 @@
         .animate-pulse {
             animation: pulse 2s infinite;
         }
-        /* Keyframes for animations */
         @keyframes fadeInDown {
             0% {
                 opacity: 0;
@@ -96,7 +92,6 @@
                 transform: scale(1);
             }
         }
-        /* Ensure images are responsive and handle errors */
         img {
             max-width: 100%;
             height: auto;
@@ -120,7 +115,6 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero py-24 text-center relative overflow-hidden">
-        <!-- Overlay for text readability without hiding background -->
         <div class="hero-overlay"></div>
         <div class="relative z-10">
             <h1 class="text-5xl md:text-6xl font-extrabold mb-6 animate-fade-in-down tracking-tight">Growing Minds</h1>
@@ -134,8 +128,7 @@
         <!-- Family, Culture, and Community -->
         <section id="family" class="section">
             <h2 class="text-2xl font-semibold mb-4">Family, Culture, and Community</h2>
-            <!-- Image with error handling -->
-            <img src="https://raw.githubusercontent.com/Mclarroh/early-learning-blog/main/your-family-image.jpg.jpg" alt="Family and community activities" class="w-full h-auto mb-4 rounded" onerror="this.style.display='none';">
+            <img src="https://raw.githubusercontent.com/Mclarroh/early-learning-blog/main/your-family-image.jpg" alt="Family and community activities" class="w-full h-auto mb-4 rounded" onerror="this.style.display='none';">
             <p class="mb-4">The family is a child's first classroom, where culture and community shape their worldview. From bedtime stories to family traditions, these early experiences build a child's sense of identity and belonging.</p>
             <p><strong>Did You Know?</strong> Children exposed to diverse cultural practices tend to develop stronger empathy and adaptability. Encourage your child to participate in community events or share family stories to foster a sense of connection.</p>
         </section>
@@ -143,7 +136,7 @@
         <!-- Physical Development -->
         <section id="physical" class="section">
             <h2 class="text-2xl font-semibold mb-4">Physical Development</h2>
-            <img src="https://raw.githubusercontent.com/Mclarroh/early-learning-blog/main/your-physical-image.jpg.jpg" alt="Children playing and developing motor skills" class="w-full h-auto mb-4 rounded" onerror="this.style.display='none';">
+            <img src="https://raw.githubusercontent.com/Mclarroh/early-learning-blog/main/your-physical-image.jpg" alt="Children playing and developing motor skills" class="w-full h-auto mb-4 rounded" onerror="this.style.display='none';">
             <p class="mb-4">Physical growth is more than just height and weight. Fine motor skills, like holding a pencil, and gross motor skills, like running, are critical for a child's independence and confidence.</p>
             <p><strong>Tip:</strong> Engage kids in fun activities like dancing or building with blocks to support motor skill development. Outdoor play also boosts physical health and creativity!</p>
         </section>
@@ -151,7 +144,7 @@
         <!-- Cognitive Development -->
         <section id="cognitive" class="section">
             <h2 class="text-2xl font-semibold mb-4">Cognitive Development</h2>
-            <img src="https://raw.githubusercontent.com/Mclarroh/early-learning-blog/main/your-cognitive-image.jpg.jpg" alt="Child engaging in cognitive activities" class="w-full h-auto mb-4 rounded" onerror="this.style.display='none';">
+            <img src="https://raw.githubusercontent.com/Mclarroh/early-learning-blog/main/your-cognitive-image.jpg" alt="Child engaging in cognitive activities" class="w-full h-auto mb-4 rounded" onerror="this.style.display='none';">
             <p class="mb-4">A child's brain is like a sponge, absorbing information and making connections. Cognitive development includes problem-solving, memory, and critical thinking, which grow through play and exploration.</p>
             <p><strong>Fun Fact:</strong> Pretend play, like acting out a story, enhances a child's ability to plan and think abstractly. Try setting up a "pretend store" at home to spark their imagination!</p>
         </section>
@@ -159,7 +152,7 @@
         <!-- Social and Emotional Development -->
         <section id="social" class="section">
             <h2 class="text-2xl font-semibold mb-4">Social and Emotional Development</h2>
-            <img src="https://raw.githubusercontent.com/Mclarroh/early-learning-blog/main/your-social-image.jpg.jpg" alt="Children interacting socially" class="w-full h-auto mb-4 rounded" onerror="this.style.display='none';">
+            <img src="https://raw.githubusercontent.com/Mclarroh/early-learning-blog/main/your-social-image.jpg" alt="Children interacting socially" class="w-full h-auto mb-4 rounded" onerror="this.style.display='none';">
             <p class="mb-4">Learning to share, express feelings, and build friendships are key milestones. Emotional regulation starts with understanding their own emotions and recognizing others' feelings.</p>
             <p><strong>Activity Idea:</strong> Use storybooks to discuss characters' emotions or practice "feelings charades" to help kids name and express their emotions in a playful way.</p>
         </section>
